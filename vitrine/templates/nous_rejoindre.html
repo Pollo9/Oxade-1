@@ -1,0 +1,152 @@
+{% extends 'base_vitrine.html' %}
+{% load staticfiles %}
+
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | Nous rejoindre ">
+<title>Oxade | Nous rejoindre </title>
+
+<link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/contact.css' %}">
+<script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+
+<section class="hero-wrap hero-wrap-2 fond-nous-rejoindre">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row no-gutters slider-text align-items-center justify-content-center">
+			<div class="col-md-9 ftco-animate text-center">
+				<h1 class="mb-2 bread">Nous rejoindre</h1>
+				<p class="breadcrumbs">
+					<span class="mr-2">
+						<a href="{% url 'index_vitrine' %}">Accueuil <i class="fas fa-chevron-right"></i></a>
+					</span>
+					<span>Nous rejoindre<i class="fas fa-chevron-right"></i></span>
+				</p> 
+			</div>
+		</div>
+	</div>
+</section>
+<section class="ftco-section contact-section padding_section">
+	<div class="container">
+		<div class="row d-flex mb-5 contact-info justify-content-center">
+			<div class="col-md-8">
+				<div class="row mb-5">
+					<div class="col-md-4 text-center py-4">
+						<div class="icon">
+							<i class="fas fa-map-marked"></i>
+						</div>
+						<p>
+							<span>Addresse:</span>
+							 10, rue Notre-Dame de Lorette - 75009 PARIS
+						</p>
+					</div>
+					<div class="col-md-4 text-center border-height py-4">
+						<div class="icon">
+							<i class="fas fa-phone-alt"></i>
+						</div>
+						<p>
+							<span>Téléphone:</span>
+							<span><a href="tel:+33142829938">01 42 82 99 38</a></span>
+						</p>
+					</div>
+					<div class="col-md-4 text-center py-4">
+						<div class="icon">
+							<i class="fas fa-paper-plane"></i>
+						</div>
+						<p>
+							<span>Email:</span>
+							<a href="mailto:oxade@oxade.com">oxade@oxade.com</span></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row block-9 justify-content-center mb-5">
+			<div class="col-md-8 mb-md-5">
+				<h2 class="text-center">Bienvenue ! Merci de proposer votre candidature.</h2>
+				<form action="#" class="bg-light p-5 contact-form">
+					<h2 class="text-center">Informations générales</h2>
+					<div class="form-group cases">
+						<label for="Nom" style="opacity: 0;">A</label>
+						<input id="Nom"type="text" class="form-control" placeholder="Nom*">
+					</div>
+					<div class="form-group cases">
+						<label for="Prénom" style="opacity: 0;">A</label>
+						<input id="Prénom" type="text" class="form-control" placeholder="Prénom*">
+					</div>
+					<div class="form-group cases">
+						<label for="Email" style="opacity: 0;">A</label>
+						<input id="Email" type="text" class="form-control" placeholder="Email*">
+					</div>
+					<div class="form-group cases">
+						<label for="Nationalité" style="opacity: 0;">A</label>
+						<input id="Nationalité" type="text" class="form-control" placeholder="Nationalité*">
+					</div>
+					<div class="form-group cases">
+						<label for="Date de naissance" style="opacity: 0;">A</label>
+						<input id="Date de naissance" type="text" class="form-control" placeholder="Date de naissance*">
+					</div>
+					<h2 class="text-center">Formation</h2>
+					<div class="form-group cases">
+						<label for="Formation post-Bac" style="opacity: 0;">A</label>
+						<input id="Formation post-Bac" type="text" class="form-control" placeholder="Formation post-Bac*">
+					</div>
+					<div class="form-group cases">
+						<label for="Cursus" style="opacity: 0;">A</label>
+						<input id="Cursus" type="text" class="form-control" placeholder="Cursus*">
+					</div>
+					<div class="form-group cases">
+						<label for="Type de formation principale" style="opacity: 0;">A</label>
+						<input id="Type de formation principale" type="text" class="form-control" placeholder="Type de formation principale*">
+					</div>
+					<h2 class="text-center">Diplôme</h2>
+					<div class="form-group cases">
+						<label for="Ecole" style="opacity: 0;">A</label>
+						<input id="Ecole" type="text" class="form-control" placeholder="Ecole*">
+					</div>
+					<div class="form-group cases">
+						<label for="Intitulé" style="opacity: 0;">A</label>
+						<input id="Intitulé" type="text" class="form-control" placeholder="Intitulé*">
+					</div>
+					<div class="form-group cases">
+						<label for="Année d'obtention" style="opacity: 0;">A</label>
+						<input id="Année d'obtention" type="text" class="form-control" placeholder="Année d'obtention*">
+					</div>
+					<div class="form-group button_send">
+						<label for="boutton" style="opacity: 0;">A</label>
+						<input id="boutton" type="submit" value="Envoyer" class="btn btn-primary py-3 px-5">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="titre_rh">
+	<h2>Présentation du RH</h2>
+</section>
+
+<section class="ftco-section ftco-counter">
+	<div class="container">
+		<div class="row justify-content-center mb-5 pb-2 d-flex">
+			<div class="col-md-10 align-items-stretch d-flex" style="width: 485px;height: 365px;margin-bottom: -89px;margin-top: -97px;">
+				<div class="img img-video d-flex align-items-center fond-defense">
+					<div class="video justify-content-center">
+						<a aria-label = "video" href="https://www.youtube.com/watch?v=BnrDJq1V4bw" class="icon-video popup-vimeo d-flex justify-content-center align-items-center"><i class="fas fa-play-circle play_button"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<iframe title="map" class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.9894897199592!2d2.3364049159123588!3d48.87747690731623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e476bc08471%3A0x95324380f110831a!2s10%20Rue%20Notre%20Dame%20de%20Lorette%2C%2075009%20Paris!5e0!3m2!1sfr!2sfr!4v1574074933088!5m2!1sfr!2sfr" width="1500" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+
+
+{% endblock %}

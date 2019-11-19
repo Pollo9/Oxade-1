@@ -1,0 +1,51 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+
+		<title>Oxade</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+		{% block seo %} {% endblock %}
+		<link rel="shortcut icon" type="img/png" href="{% static 'vitrine/img/o_oxade.png' %}">
+		{% block link %} {% endblock %}
+	</head>
+	<body>
+
+
+	{% include 'annexe/navbar.html' %}
+
+		{% block content %}
+
+    	{% endblock %}
+	
+	{% include 'annexe/footer.html' %}
+		<script src="{% static 'vitrine/js/jquery.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/jquery_migrate_3.0.1.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<!-- <script src="{% static 'vitrine/js/popper.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript'"></script> -->
+		<!-- <script src="{% static 'vitrine/js/bootstrap.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript'"></script> -->
+		<script src="{% static 'vitrine/js/jquery.easing.1.3.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/jquery.waypoints.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/jquery.stellar.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/owl.carousel.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/jquery.magnific_popup.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/aos.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/jquery.animateNumber.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/scrollax.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/main.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script type="e0d04e41b890f86bba8f9763-text/javascript">
+			  window.dataLayer = window.dataLayer || [];
+			  function gtag(){
+				dataLayer.push(arguments);
+			}
+			  gtag('js', new Date());
+			  gtag('config', 'UA-23581568-13');
+		</script>
+		<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js" data-cf-settings="e0d04e41b890f86bba8f9763-|49" defer=""></script>
+		<script src="{% static 'vitrine/js/modernizr.js' %}"></script>
+		<noscript>Your browser does not support JavaScript!</noscript>
+	</body>
+</html>

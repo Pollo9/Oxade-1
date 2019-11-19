@@ -1,0 +1,70 @@
+{% extends 'base_vitrine.html' %} 
+{% load staticfiles %} {% load i18n %}
+
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | Evenements ">
+<title>Oxade | Evenements </title>
+
+<link rel="stylesheet" href="{% static 'vitrine/css/evenement.css' %}"> <script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
+
+{% endblock %}
+
+{% block content %}
+
+<section class="hero-wrap hero-wrap-2 fond_immeuble">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row no-gutters slider-text align-items-center justify-content-center">
+			<div class="col-md-9 ftco-animate text-center fadeInUp ftco-animated">
+				<h1 class="mb-2 bread">{% trans 'Événements' %}</h1>
+				<p class="breadcrumbs">
+					<span class="mr-2">
+						<a href="{% url 'index_vitrine'%}">Accueuil <i class="fas fa-chevron-right"></i></a>
+					</span>
+					<span>Événements<i class="fas fa-chevron-right"></i></span>
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="ftco-section ftco-counter">
+	<div class="container">
+		<div class="row justify-content-center mb-5 pb-2 d-flex">
+			{% for event in events %}
+			{% if forloop.counter0|divisibleby:2 %}
+				<div style="margin:10px;display: contents;">
+				<div class="col-md-6 heading-section ftco-animate pl-lg-5 pt-md-0 pt-5 fadeInUp ftco-animated">
+					<h2 class="mb-4">{{event.titre}}</h2>
+					<p>
+						{{event.texte}}
+					</p>
+				</div>
+				<div class="col-md-6 align-items-stretch d-flex">
+					<div class="img img-video d-flex align-items-center" style="background-image: url({{ event.img.url }});">
+					</div>
+				</div>
+			</div>
+			<br>
+			{% else %}
+			<div style="margin:10px;display: flex;">
+				<div class="col-md-6 align-items-stretch d-flex">
+					<div class="img img-video d-flex align-items-center" style="background-image: url({{ event.img.url }});">
+					</div>
+				</div>
+				<div class="col-md-6 heading-section ftco-animate pl-lg-5 pt-md-0 pt-5 fadeInUp ftco-animated">
+					<h2 class="mb-4">{{event.titre}}</h2>
+					<p>
+						{{event.texte}}
+					</p>
+				</div>
+			</div>
+			{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+</section>
+<p>{% trans 'Événements' %}</p>
+
+{% endblock %}

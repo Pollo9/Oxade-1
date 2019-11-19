@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19 20:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: vitrine/templates/annexe/navbar.html:44
+msgid "Nous contacter"
+msgstr "Contact us"
+
+#: vitrine/templates/annexe/navbar.html:97
+msgid "Accueil"
+msgstr "Home"
+
+#: vitrine/templates/annexe/navbar.html:99
+msgid "Offres"
+msgstr "Offers"
+
+#: vitrine/templates/annexe/navbar.html:107
+#: vitrine/templates/annexe/navbar.html:122
+#: vitrine/templates/annexe/navbar.html:135
+msgid "Conduite du changement"
+msgstr "Change management"
+
+#: vitrine/templates/annexe/navbar.html:108
+#: vitrine/templates/annexe/navbar.html:123
+#: vitrine/templates/annexe/navbar.html:149
+msgid "Fusions et acquisitions"
+msgstr "Mergers and Acquisitions"
+
+#: vitrine/templates/annexe/navbar.html:109
+#: vitrine/templates/annexe/navbar.html:124
+#: vitrine/templates/annexe/navbar.html:163
+msgid "Transformation"
+msgstr "Transformation"
+
+#: vitrine/templates/annexe/navbar.html:110
+#: vitrine/templates/annexe/navbar.html:125
+#: vitrine/templates/annexe/navbar.html:177
+msgid "Sécurité"
+msgstr "Security"
+
+#: vitrine/templates/annexe/navbar.html:111
+#: vitrine/templates/annexe/navbar.html:126
+#: vitrine/templates/annexe/navbar.html:191
+msgid "Réglementaire"
+msgstr "Regulation"
+
+#: vitrine/templates/annexe/navbar.html:112
+#: vitrine/templates/annexe/navbar.html:127
+#: vitrine/templates/annexe/navbar.html:205
+msgid "Expérience client"
+msgstr "Client experience"
+
+#: vitrine/templates/annexe/navbar.html:113
+#: vitrine/templates/annexe/navbar.html:128
+#: vitrine/templates/annexe/navbar.html:219
+msgid "Gestion de projets"
+msgstr "Project management"
+
+#: vitrine/templates/annexe/navbar.html:114
+#: vitrine/templates/annexe/navbar.html:129
+msgid "Digitalisation"
+msgstr "Digitaliation"
+
+#: vitrine/templates/annexe/navbar.html:120
+#: vitrine/templates/annexe/navbar.html:265
+msgid "En savoir plus"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:136
+msgid ""
+"Bien gérée, elle peut occasionner une réduction des coûts, une amélioration "
+"de la qualité et un accroissement de la réactivité."
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:150
+msgid ""
+"Les opérations de Fusions & Acquisitions (F&A) sont longtemps restées "
+"l’apanage du monde de la Stratégie et de la Finance."
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:164
+msgid ""
+"Nous appuyons les directions projets et les instances dirigeantes pour "
+"faciliter le suivi de l’avancement et la prise de décisions."
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:178
+msgid ""
+"Découvrez comment nous avons réussi à simplifier la sécurité des accès au "
+"système d’information de votre établissement."
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:192
+msgid ""
+"En amont des projets et lors du cadrage, jusqu’à la mise en oeuvre SI et des "
+"reportings réglementaires, Oxade couvre l’ensemble du spectre de la "
+"réglementation des marchés financiers."
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:206
+msgid ""
+"Intelligence stratégique, excellence opérationnelle et connaissance "
+"approfondie de ses clients sont aujourd’hui les facteurs clés de la réussite "
+"des entreprises gagnantes."
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:220
+msgid ""
+"Elle consiste à appliquer les méthodes, techniques, et outils de gestion "
+"spécifiques aux différentes étapes du projet, de l"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:232
+#, fuzzy
+#| msgid "Digitalisation"
+msgid "Digitaliation"
+msgstr "Digitaliation"
+
+#: vitrine/templates/annexe/navbar.html:233
+msgid ""
+"Les entreprises du secteur financier mettent en œuvre les changements exigés "
+"par les nouvelles réglementations. Elles s’efforcent en même temps de réagir "
+"face à la croissance de la numérisation."
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:246
+msgid "Secteurs"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:254
+#: vitrine/templates/annexe/navbar.html:267
+#: vitrine/templates/annexe/navbar.html:278
+msgid "Banque"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:255
+#: vitrine/templates/annexe/navbar.html:268
+#: vitrine/templates/annexe/navbar.html:291
+msgid "Secteur public"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:256
+#: vitrine/templates/annexe/navbar.html:269
+msgid "Transport & logistique"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:257
+#: vitrine/templates/annexe/navbar.html:270
+#: vitrine/templates/annexe/navbar.html:318
+msgid "Assurance"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:258
+#: vitrine/templates/annexe/navbar.html:271
+#: vitrine/templates/annexe/navbar.html:331
+msgid "Energie"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:259
+#: vitrine/templates/annexe/navbar.html:272
+#: vitrine/templates/annexe/navbar.html:344
+msgid "Télécommunications"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:279
+msgid ""
+"Dans un contexte ou l’univers financier en général doivent faire face à de "
+"profonds bouleversements technologiques et culturels, où la compétition sur "
+"les services et les tarifs est de plus en plus féroce, nous vous apportons "
+"expérience, expertise et discernement pour vous accompagner dans vos choix "
+"stratégiques opérationnels et vos projets de transformation"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:292
+msgid ""
+"Nos professionnels du Secteur Public sont en capacité de mobiliser toutes "
+"les expertises en audit, conseil en management, en systèmes d’information et "
+"conseil financier qui permettent d’appréhender les grandes évolutions du "
+"secteur"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:305
+msgid "Transport et logistique"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:306
+msgid ""
+"Accompagnement depuis de très nombreuses années des acteurs de la mobilité, "
+"des infrastructures, du fret et de la logistique au travers d’approches "
+"adaptées et innovantes"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:319
+msgid "Nous accompagnons les plus grands acteurs du secteur de l"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:332
+msgid ""
+"Oxade Consulting développe des solutions innovantes pour accompagner les "
+"transformations majeures des grands acteurs français et européens du secteur "
+"de l"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:345
+msgid ""
+"Accompagnement des acteurs du secteur des télécommunications dans leur "
+"transformation humaine et opérationnelle. Les consultants du interviennent "
+"sur les évolutions des compétences, modes de fonctionnement et métiers des "
+"opérateurs, en particulier de l"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:356
+#: vitrine/templates/evenements.html:21 vitrine/templates/evenements.html:68
+msgid "Événements"
+msgstr "Events"
+
+#: vitrine/templates/annexe/navbar.html:357
+msgid "À propos de nous"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:358
+msgid "Nous rejoindre"
+msgstr ""
